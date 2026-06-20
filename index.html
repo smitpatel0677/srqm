@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#F97316" />
+    <meta name="description" content="Saksham Digi QR Menu — Create QR menus, accept orders, track revenue for your restaurant." />
+    <meta name="application-name" content="SQRM" />
+    <meta property="og:title" content="Saksham Digi QR Menu" />
+    <meta property="og:description" content="Digital menu platform for restaurants. QR menus, live orders, analytics." />
+    <meta property="og:type" content="website" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
+    <title>Saksham Digi QR Menu</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>

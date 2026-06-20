@@ -1,0 +1,27 @@
+{
+  "name": "Saksham Digi QR Menu",
+  "short_name": "SQRM",
+  "description": "Digital menu platform for restaurants — QR menus, live orders, analytics.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#F97316",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["food", "business"],
+  "screenshots": [],
+  "related_applications": []
+}
