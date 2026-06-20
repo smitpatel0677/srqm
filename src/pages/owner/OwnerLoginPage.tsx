@@ -8,7 +8,7 @@ import { toast } from 'sonner';
 // ── Replace this with your real Google OAuth Client ID ──────────────────────
 // Get it from: https://console.cloud.google.com/ → APIs & Services → Credentials
 // Add Authorized redirect URI: https://sqrm.srpdigitalstudios.qzz.io/owner/login
-const GOOGLE_CLIENT_ID = 'YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com';
+const GOOGLE_CLIENT_ID = '872690469008-s3tvqrs0tsqok0us8ohhhbpk8hk31rrk.apps.googleusercontent.com';
 // ─────────────────────────────────────────────────────────────────────────────
 
 /** Decode a Google JWT credential and return { name, email, picture } */
